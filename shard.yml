@@ -1,0 +1,22 @@
+name: uname
+version: 1.0.0
+
+authors:
+  - Oleg Orlov <orelcokolov@gmail.com>
+
+crystal: 0.30.1
+
+license: MIT
+
+description: |
+  Interface to standard uname data via C extension
+
+executables:
+  - shards
+
+scripts:
+  postinstall: make install
+
+targets:
+  shards:
+    main: src/shards.cr
