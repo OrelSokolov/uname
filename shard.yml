@@ -11,9 +11,6 @@ license: MIT
 description: |
   Interface to standard uname data via C extension
 
-executables:
-  - shards
-
 scripts:
   postinstall: make shared
 
