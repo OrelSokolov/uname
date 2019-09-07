@@ -9,7 +9,7 @@ lib UnameLib
 end
 
 class Uname
-  VERSION = "0.1.0"
+  VERSION = "1.0.1"
 
   def self.sysname
     String.new(UnameLib.uname_sysname)
