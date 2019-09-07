@@ -18,9 +18,14 @@ Uname is interface to standard `uname` data via C extension
 
 ```crystal
 require "uname"
+
+Uname.sysname
+Uname.nodename
+Uname.release
+Uname.machine
+Uname.version
 ```
 
-TODO: Write usage instructions here
 
 ## Development
 

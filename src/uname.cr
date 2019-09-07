@@ -1,4 +1,4 @@
-@[Link("uname")]
+@[Link(ldflags: "#{__DIR__}/uname.so")]
 
 lib UnameLib
   fun uname_sysname() : LibC::Char*

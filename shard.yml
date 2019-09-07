@@ -15,7 +15,7 @@ executables:
   - shards
 
 scripts:
-  postinstall: make install
+  postinstall: make shared
 
 targets:
   shards:

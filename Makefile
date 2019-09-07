@@ -3,11 +3,7 @@ nonshared:
 	gcc -c src/uname.c -o build/uname.o
 
 shared: nonshared
-	gcc --shared -o build/uname.so build/uname.o
-
-install: shared
-	mv build/uname.so /usr/lib/
-	ldconfig -n -v /usr/lib
+	gcc --shared -o src/uname.so build/uname.o
 
 clean:
-	rm build/uname.o
+	rm -r build/
