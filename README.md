@@ -26,11 +26,6 @@ Uname.machine
 Uname.version
 ```
 
-
-## Development
-
-TODO: Write development instructions here
-
 ## Contributing
 
 1. Fork it (<https://github.com/orelsokolov/uname/fork>)
