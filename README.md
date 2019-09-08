@@ -1,4 +1,4 @@
-# uname
+# uname [![Build Status](https://api.travis-ci.org/OrelSokolov/uname.svg?branch=master)]()
 
 Uname is interface to standard `uname` data via C extension
 
